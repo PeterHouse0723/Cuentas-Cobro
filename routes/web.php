@@ -64,12 +64,7 @@ Route::middleware(['auth'])->group(function () {
     |--------------------------------------------------------------------------
     */
 
-// Ruta de inicio
-
-
-Route::get('/', function () {
-    return view('welcome');
-});
+// Las rutas principales ya están definidas arriba
 
 // ⬇️ COMENTA ESTA LÍNEA (línea 73)
 // Auth::routes();
